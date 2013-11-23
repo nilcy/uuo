@@ -11,7 +11,13 @@
   <modules>
     <module>uuo-framework-coding</module>
     <module>uuo-framework-testing</module>
+    <module>uuo-framework-standard</module>
   </modules>
+  <properties>
+    <commons-lang3.version>3.1</commons-lang3.version>
+    <commons-codec.version>1.8</commons-codec.version>
+    <commons-beanutils.version>1.8.3</commons-beanutils.version>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
