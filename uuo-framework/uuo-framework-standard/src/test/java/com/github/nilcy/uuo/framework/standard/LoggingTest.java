@@ -15,10 +15,10 @@ public class LoggingTest {
   private static final Logger LOG = LoggerFactory.getLogger(LoggingTest.class);
   @Test
   public final void test() {
-    LOG.trace("TRACE");
-    LOG.debug("DEBUG");
-    LOG.info("INFO");
-    LOG.warn("WARN");
-    LOG.error("ERROR");
+    LOG.trace("追跡({},{},{})", "foo", "bar", "baz");
+    LOG.debug("検査({},{},{})", "foo", "bar", "baz");
+    LOG.info("情報({},{},{})", "foo", "bar", "baz");
+    LOG.warn("警告({},{},{})", "foo", "bar", "baz");
+    LOG.error("異常({},{},{})", "foo", "bar", "baz");
   }
 }
