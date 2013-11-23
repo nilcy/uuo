@@ -5,7 +5,7 @@
   <artifactId>uuo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>UUO</name>
+  <name>uuo</name>
   <description>UUO (you-you-oh) [short for &quot;Un-Used Operation&quot;]</description>
   <url>http://nilcy.github.io/uuo/maven/site/</url>
   <inceptionYear>2013</inceptionYear>

@@ -8,8 +8,8 @@
     </parent>
   <artifactId>uuo-framework</artifactId>
   <packaging>pom</packaging>
-  <name>uuo-framework</name>
   <modules>
     <module>uuo-framework-coding</module>
+    <module>uuo-framework-testing</module>
   </modules>
 </project>
