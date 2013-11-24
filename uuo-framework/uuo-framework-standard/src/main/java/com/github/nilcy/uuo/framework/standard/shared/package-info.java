@@ -4,11 +4,11 @@
 // http://www.gnu.org/licenses/gpl-3.0-standalone.html
 // ----------------------------------------------------------------------------
 /**
- * スタンダード・フレームワーク
+ * スタンダード・フレームワーク / レイヤ共通 
  * <dl>
  * <dt>使用条件
- * <dd>Java標準ライブラリ(JavaSE)の拡張フレームワークであること。
+ * <dd>Java標準ライブラリ(JavaSE)のレイヤ共通モジュールであること。
  * </dl>
  * @author nilcy
  */
-package com.github.nilcy.uuo.framework.standard;
+package com.github.nilcy.uuo.framework.standard.shared;
