@@ -2,25 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <!-- 基本情報 -->
+  <artifactId>uuo-framework</artifactId>
+  <packaging>pom</packaging>
   <parent>
     <artifactId>uuo</artifactId>
     <groupId>com.github.nilcy</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>uuo-framework</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-    <module>uuo-framework-coding</module>
-    <module>uuo-framework-testing</module>
-    <module>uuo-framework-standard</module>
-    <module>uuo-framework-enterprise</module>
-  </modules>
-  <properties>
-    <commons-lang3.version>3.1</commons-lang3.version>
-    <commons-codec.version>1.8</commons-codec.version>
-    <commons-beanutils.version>1.8.3</commons-beanutils.version>
-    <logback-classic.version>1.0.13</logback-classic.version>
-  </properties>
   <dependencyManagement>
     <dependencies>
       <!-- REQUIRED for CODING -->
@@ -60,6 +49,19 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-  <name>UUO Framework - Root Module</name>
+  <modules>
+    <module>uuo-framework-coding</module>
+    <module>uuo-framework-testing</module>
+    <module>uuo-framework-standard</module>
+    <module>uuo-framework-enterprise</module>
+  </modules>
+  <properties>
+    <commons-lang3.version>3.1</commons-lang3.version>
+    <commons-codec.version>1.8</commons-codec.version>
+    <commons-beanutils.version>1.8.3</commons-beanutils.version>
+    <logback-classic.version>1.0.13</logback-classic.version>
+  </properties>
+  <!-- プロジェクト情報 -->
+  <name>UUO Framework / Root Module</name>
   <description>UUO Framework</description>
 </project>

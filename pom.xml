@@ -2,11 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <!-- 基本情報 -->
+  <!-- / 基本情報 -->
   <groupId>com.github.nilcy</groupId>
   <artifactId>uuo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <dependencies />
+  <dependencyManagement />
   <modules>
     <module>uuo-framework</module>
     <module>uuo-application</module>
@@ -22,7 +24,7 @@
     <glassfish-embedded-all.version>4.0</glassfish-embedded-all.version>
     <postgresql.version>9.2-1003-jdbc4</postgresql.version>
   </properties>
-  <!-- ビルド設定 -->
+  <!-- / ビルド設定 -->
   <build>
     <defaultGoal>package</defaultGoal>
     <directory>target</directory>
@@ -351,8 +353,8 @@
   <reporting>
     <outputDirectory>target/site</outputDirectory>
   </reporting>
-  <!-- プロジェクト情報 -->
-  <name>UUO - Root Module</name>
+  <!-- / プロジェクト情報 -->
+  <name>UUO / Root Module</name>
   <description>UUO (you-you-oh) [short for &quot;Un-Used Operation&quot;]</description>
   <url>http://nilcy.github.io/uuo/maven/site/</url>
   <inceptionYear>2013</inceptionYear>
@@ -387,7 +389,7 @@
   <contributors>
     <contributor />
   </contributors>
-  <!-- 環境設定 -->
+  <!-- / 環境設定 -->
   <issueManagement>
     <system>GitHub Issues</system>
     <url>https://github.com/nilcy/uuo/issues</url>
