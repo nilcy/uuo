@@ -5,7 +5,7 @@
     This configuration file was written by the eclipse-cs plugin configuration editor
 -->
 <!--
-    Checkstyle-Configuration: yoyo Checks
+    Checkstyle-Configuration: UUO Checks
     Description: none
 -->
 <module name="Checker">
@@ -141,10 +141,10 @@
     <module name="CovariantEquals"/>
     <module name="DefaultComesLast"/>
     <module name="DeclarationOrder"/>
-    <module name="DoubleCheckedLocking">
-      <property name="severity" value="ignore"/>
-      <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
-    </module>
+    <!-- <module name="DoubleCheckedLocking"> -->
+    <!--   <property name="severity" value="ignore"/> -->
+    <!--   <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/> -->
+    <!-- </module> -->
     <module name="EmptyStatement"/>
     <module name="EqualsAvoidNull"/>
     <module name="EqualsHashCode"/>
