@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rss version="0.91">
+  <channel>
+    <title>uuo - Checkstyle report</title>
+    <link>http://nilcy.github.io/uuo/maven/site/</link>
+    <description>uuo - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2013 nilcy</copyright>
+    <item>
+      <title>File: 8,
+             Errors: 0,
+             Warnings: 3,
+             Infos: 0
+      </title>
+            <link>http://nilcy.github.io/uuo/maven/site//checkstyle.html</link>
+      <description>
+        <p>Click <a href="http://nilcy.github.io/uuo/maven/site//checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="http://nilcy.github.io/uuo/maven/site//checkstyle.html#com.github.nilcy.uuo.framework.enterprise.Example.java">com/github/nilcy/uuo/framework/enterprise/Example.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://nilcy.github.io/uuo/maven/site//checkstyle.html#com.github.nilcy.uuo.framework.standard.Example.java">com/github/nilcy/uuo/framework/standard/Example.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://nilcy.github.io/uuo/maven/site//checkstyle.html#com.github.nilcy.uuo.framework.coding.package-info.java">com/github/nilcy/uuo/framework/coding/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://nilcy.github.io/uuo/maven/site//checkstyle.html#com.github.nilcy.uuo.framework.enterprise.package-info.java">com/github/nilcy/uuo/framework/enterprise/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://nilcy.github.io/uuo/maven/site//checkstyle.html#com.github.nilcy.uuo.framework.standard.package-info.java">com/github/nilcy/uuo/framework/standard/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://nilcy.github.io/uuo/maven/site//checkstyle.html#com.github.nilcy.uuo.framework.coding.Example.java">com/github/nilcy/uuo/framework/coding/Example.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://nilcy.github.io/uuo/maven/site//checkstyle.html#com.github.nilcy.uuo.framework.testing.package-info.java">com/github/nilcy/uuo/framework/testing/package-info.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://nilcy.github.io/uuo/maven/site//checkstyle.html#com.github.nilcy.uuo.framework.testing.Example.java">com/github/nilcy/uuo/framework/testing/Example.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+
