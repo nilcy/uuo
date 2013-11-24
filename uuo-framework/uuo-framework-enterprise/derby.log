@@ -1,0 +1,11 @@
+----------------------------------------------------------------
+Sun Nov 24 14:19:56 JST 2013:
+ Derby バージョン The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): インスタンス a816c00e-0142-888c-c4a3-0000078038d0 を
+クラスローダー sun.misc.Launcher$AppClassLoader@44c8422 によってデータベースディレクトリ memory:/home.nilcy/git/uuo/uuo-framework/uuo-framework-enterprise/tempDb  上でブート中 
+
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_40-b43
+user.dir=/home.nilcy/git/uuo/uuo-framework/uuo-framework-enterprise
+derby.system.home=null
+データベースクラスローダーが開始されました - derby.database.classpath=''

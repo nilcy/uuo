@@ -19,8 +19,8 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Arquillian.class)
 @SuppressWarnings("all")
-public class JpaTest {
-  private final EntityManager testee = Persistence.createEntityManagerFactory("primary")
+public class EntityManagerTest {
+  private final EntityManager testee = Persistence.createEntityManagerFactory("temp")
     .createEntityManager();
   // @PersistenceContext private EntityManager testee;
   @Deployment
