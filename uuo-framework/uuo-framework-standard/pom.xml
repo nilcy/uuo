@@ -27,4 +27,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <name>UUO Framework - Standard Module</name>
+  <description>UUO Standard Framework</description>
 </project>

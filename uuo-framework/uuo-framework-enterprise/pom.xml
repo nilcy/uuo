@@ -42,4 +42,6 @@
       <artifactId>uuo-framework-standard</artifactId>
     </dependency>
   </dependencies>
+  <name>UUO Framework - Enterprise Module</name>
+  <description>UUO Enterprise Framework</description>
 </project>

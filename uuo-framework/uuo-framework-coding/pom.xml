@@ -16,4 +16,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <name>UUO Framework - Coding Module</name>
+  <description>UUO Coding Framework</description>
 </project>

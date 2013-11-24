@@ -60,4 +60,6 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+  <name>UUO Framework - Root Module</name>
+  <description>UUO Framework</description>
 </project>
