@@ -11,8 +11,8 @@ import org.jboss.shrinkwrap.api.spec.JavaArchive;
  * @author nilcy
  */
 @SuppressWarnings("all")
-class ArquillianArchive {
-  static JavaArchive createDeployment() {
+class TesteeArchive {
+  static JavaArchive minimal() {
     return ShrinkWrap.create(JavaArchive.class)
       .addPackages(true, "com.github.nilcy.uuo.framework.enterprise")
       .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");

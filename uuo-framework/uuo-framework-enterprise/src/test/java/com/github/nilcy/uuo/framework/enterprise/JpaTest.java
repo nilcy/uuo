@@ -6,26 +6,29 @@
 package com.github.nilcy.uuo.framework.enterprise;
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;
-import javax.inject.Inject;
+import javax.persistence.EntityManager;
+import javax.persistence.Persistence;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 /**
- * @see com.github.nilcy.uuo.framework.enterprise.Example
+ * @see javax.persistence.EntityManager
  * @author nilcy
  */
 @RunWith(Arquillian.class)
 @SuppressWarnings("all")
-public class ArquillianTest {
-  @Inject Example testee;
+public class JpaTest {
+  private final EntityManager testee = Persistence.createEntityManagerFactory("primary")
+    .createEntityManager();
+  // @PersistenceContext private EntityManager testee;
   @Deployment
   public static JavaArchive createDeployment() {
-    return ArquillianArchive.createDeployment();
+    return TesteeArchive.minimal();
   }
   @Test
   public void test() {
-    assertThat(testee.sayHello(), is("Hello, World."));
+    assertThat(testee, is(not(nullValue())));
   }
 }
