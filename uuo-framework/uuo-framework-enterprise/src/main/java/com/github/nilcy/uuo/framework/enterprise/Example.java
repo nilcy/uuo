@@ -12,9 +12,9 @@ package com.github.nilcy.uuo.framework.enterprise;
  * </dl>
  * @author nilcy
  */
-public final class Example {
-  /** 非公開コンストラクタ */
-  private Example() {
+public class Example {
+  /** コンストラクタ */
+  public Example() {
   }
   /**
    * サンプルメソッド
@@ -24,7 +24,8 @@ public final class Example {
    * </dl>
    * @return "Hello, World."
    */
-  static String sayHello() {
+  @SuppressWarnings("static-method")
+  public String sayHello() {
     return "Hello, World.";
   }
 }

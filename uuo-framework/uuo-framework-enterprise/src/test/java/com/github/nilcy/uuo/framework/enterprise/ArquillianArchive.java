@@ -4,17 +4,17 @@
 // http://www.gnu.org/licenses/gpl-3.0-standalone.html
 // ----------------------------------------------------------------------------
 package com.github.nilcy.uuo.framework.enterprise;
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.*;
-import org.junit.Test;
+import org.jboss.shrinkwrap.api.ShrinkWrap;
+import org.jboss.shrinkwrap.api.asset.EmptyAsset;
+import org.jboss.shrinkwrap.api.spec.JavaArchive;
 /**
- * @see com.github.nilcy.uuo.framework.enterprise.Example
  * @author nilcy
  */
 @SuppressWarnings("all")
-public class ExampleTest {
-  @Test
-  public final void testSayHello() {
-    assertThat(new Example().sayHello(), is("Hello, World."));
+class ArquillianArchive {
+  static JavaArchive createDeployment() {
+    return ShrinkWrap.create(JavaArchive.class)
+      .addPackages(true, "com.github.nilcy.uuo.framework.enterprise")
+      .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
   }
 }
