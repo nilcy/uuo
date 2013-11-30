@@ -8,16 +8,24 @@ import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.asset.EmptyAsset;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
 /**
+ * テスト用アーカイブ
  * @author nilcy
  */
-@SuppressWarnings("all")
-class TesteeArchive {
-  static JavaArchive minimal() {
+class ArquillianArchive {
+  /**
+   * CDIアーカイブの作成
+   * @return CDIアーカイブ
+   */
+  static JavaArchive CDI() {
     return ShrinkWrap.create(JavaArchive.class)
       .addPackages(true, "com.github.nilcy.uuo.framework.enterprise")
       .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
   }
-  static JavaArchive resource() {
+  /**
+   * CDI/JPAアーカイブの作成
+   * @return CDI/JPAアーカイブ
+   */
+  static JavaArchive CDI_JPA() {
     return ShrinkWrap.create(JavaArchive.class)
       .addPackages(true, "com.github.nilcy.uuo.framework.enterprise")
       .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")

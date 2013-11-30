@@ -1,6 +1,5 @@
 target
 *.class
-derby.log
 
 # Package Files #
 *.jar

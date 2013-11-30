@@ -22,7 +22,7 @@ public class ExampleTest {
   @Inject Example testee;
   @Deployment
   public static JavaArchive createDeployment() {
-    return TesteeArchive.minimal();
+    return ArquillianArchive.CDI();
   }
   @Test
   public void test() {

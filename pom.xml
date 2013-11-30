@@ -129,7 +129,13 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
         <configuration>
-          <compilerArgument>-Xlint</compilerArgument>
+          <compilerArguments>
+            <endorseddirs>${endorsed.dir}</endorseddirs>
+            <Xlint />
+            <Xlint:-path />
+            <verbose />
+          </compilerArguments>
+          <showDeprecation>true</showDeprecation>
         </configuration>
         <executions>
           <execution>
@@ -180,6 +186,14 @@
             <property>
               <name>net.sourceforge.cobertura.datafile</name>
               <value>target/cobertura/cobertura.ser</value>
+            </property>
+            <property>
+              <name>java.util.logging.config.file</name>
+              <value>${project.build.testOutputDirectory}/logging.properties</value>
+            </property>
+            <property>
+              <name>derby.stream.error.file</name>
+              <value>${project.build.directory}/derby.log</value>
             </property>
           </systemProperties>
         </configuration>

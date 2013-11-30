@@ -47,6 +47,12 @@
     <dependency>
       <groupId>com.github.nilcy</groupId>
       <artifactId>uuo-framework-standard</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>ch.qos.logback</groupId>
+          <artifactId>logback-classic</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
   <!-- / プロジェクト情報 -->
