@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Arquillian.class)
 @SuppressWarnings("all")
-public class EntityManagerTest {
+public class EntityManagerLocalTest {
   private final EntityManager testee = Persistence.createEntityManagerFactory("temp")
     .createEntityManager();
   // @PersistenceContext private EntityManager testee;

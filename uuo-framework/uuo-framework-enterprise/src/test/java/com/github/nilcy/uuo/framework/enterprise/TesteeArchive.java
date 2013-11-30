@@ -17,4 +17,10 @@ class TesteeArchive {
       .addPackages(true, "com.github.nilcy.uuo.framework.enterprise")
       .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
   }
+  static JavaArchive resource() {
+    return ShrinkWrap.create(JavaArchive.class)
+      .addPackages(true, "com.github.nilcy.uuo.framework.enterprise")
+      .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
+      .addAsResource("META-INF/persistence.xml");
+  }
 }

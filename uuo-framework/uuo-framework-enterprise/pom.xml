@@ -15,7 +15,7 @@
     <dependency>
       <groupId>javax</groupId>
       <artifactId>javaee-api</artifactId>
-      <scope>provided</scope>
+      <scope>runtime</scope>
     </dependency>
     <!-- REQUIRED for TESTING -->
     <dependency>
@@ -26,6 +26,11 @@
     <dependency>
       <groupId>org.jboss.arquillian.junit</groupId>
       <artifactId>arquillian-junit-container</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.arquillian.extension</groupId>
+      <artifactId>arquillian-transaction-jta</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>

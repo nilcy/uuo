@@ -15,12 +15,12 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>${commons-lang3.version}</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
-      <version>${logback-classic.version}</version>
+      <scope>runtime</scope>
     </dependency>
     <!-- REQUIRED for TESTING -->
     <dependency>
