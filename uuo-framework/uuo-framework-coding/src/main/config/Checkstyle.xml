@@ -147,7 +147,10 @@
     <module name="ExplicitInitialization"/>
     <module name="FallThrough"/>
     <module name="FinalLocalVariable"/>
-    <module name="HiddenField"/>
+    <module name="HiddenField">
+      <property name="severity" value="ignore"/>
+      <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
+    </module>
     <module name="IllegalInstantiation"/>
     <module name="IllegalCatch">
       <property name="illegalClassNames" value="java.lang.Throwable, java.lang.Exception, java.lang.Error, java.lang.RuntimeException"/>
@@ -179,7 +182,9 @@
       <property name="suppressLoadErrors" value="true"/>
     </module>
     <module name="RequireThis">
+      <property name="severity" value="ignore"/>
       <property name="checkMethods" value="false"/>
+      <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
     </module>
     <module name="ReturnCount"/>
     <module name="SimplifyBooleanExpression"/>

@@ -4,11 +4,11 @@
 // http://www.gnu.org/licenses/gpl-3.0-standalone.html
 // ----------------------------------------------------------------------------
 /**
- * エンタープライズ基盤 » インフラレイヤ
+ * エンタープライズ基盤 » レイヤ共通
  * <dl>
  * <dt>使用条件
- * <dd>エンタープライズ処理のインフラレイヤ基盤であること。
+ * <dd>エンタープライズ処理のレイヤ共通基盤であること。
  * </dl>
  * @author nilcy
  */
-package com.kuzumeji.uuo.framework.enterprise.infra;
+package com.kuzumeji.uuo.framework.enterprise.shared;

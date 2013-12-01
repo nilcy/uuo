@@ -18,6 +18,15 @@ import java.io.Serializable;
 public interface ReferenceObject<R extends ReferenceObject<R, I>, I extends Serializable> extends
   DataObject {
   /**
+   * 識別子
+   * <dl>
+   * <dt>使用条件
+   * <dd>参照オブジェクトの識別子を返却することを保証する。
+   * </dl>
+   * @return 識別子
+   */
+  I identity();
+  /**
    * 同一性の確認
    * <dl>
    * <dt>使用条件
@@ -27,13 +36,4 @@ public interface ReferenceObject<R extends ReferenceObject<R, I>, I extends Seri
    * @return 同一性(true:おなじ, false:ちがう)
    */
   boolean sameIdentityAs(R other);
-  /**
-   * 識別子
-   * <dl>
-   * <dt>使用条件
-   * <dd>参照オブジェクトの識別子を返却することを保証する。
-   * </dl>
-   * @return 識別子
-   */
-  I identity();
 }

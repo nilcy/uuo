@@ -3,12 +3,15 @@
 // GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 // http://www.gnu.org/licenses/gpl-3.0-standalone.html
 // ----------------------------------------------------------------------------
+package com.kuzumeji.uuo.framework.standard.shared;
+import java.io.Serializable;
 /**
- * エンタープライズ基盤 » インフラレイヤ
+ * ファクトリーオブジェクトI/F
  * <dl>
  * <dt>使用条件
- * <dd>エンタープライズ処理のインフラレイヤ基盤であること。
+ * <dd>ドメインオブジェクトを作成するオブジェクトであること。
  * </dl>
  * @author nilcy
  */
-package com.kuzumeji.uuo.framework.enterprise.infra;
+public interface Factory extends Serializable {
+}
