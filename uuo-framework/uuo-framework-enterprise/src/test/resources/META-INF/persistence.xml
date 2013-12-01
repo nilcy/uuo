@@ -4,7 +4,7 @@
   version="2.1">
   <persistence-unit name="primary" transaction-type="JTA">
     <jta-data-source>jdbc/arquillian</jta-data-source>
-    <class>com.github.nilcy.uuo.framework.enterprise.TestEntity</class>
+    <class>com.kuzumeji.uuo.framework.enterprise.TestEntity</class>
     <exclude-unlisted-classes>true</exclude-unlisted-classes>
     <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
     <validation-mode>AUTO</validation-mode>

@@ -6,7 +6,7 @@
   <artifactId>uuo-framework-enterprise</artifactId>
   <packaging>jar</packaging>
   <parent>
-    <groupId>com.github.nilcy</groupId>
+    <groupId>com.kuzumeji</groupId>
     <artifactId>uuo-framework</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>

@@ -7,7 +7,7 @@
   <packaging>pom</packaging>
   <parent>
     <artifactId>uuo</artifactId>
-    <groupId>com.github.nilcy</groupId>
+    <groupId>com.kuzumeji</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <dependencyManagement>

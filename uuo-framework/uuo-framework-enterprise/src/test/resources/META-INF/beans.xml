@@ -5,7 +5,7 @@
   <alternatives />
   <decorators />
   <interceptors>
-    <class>com.github.nilcy.uuo.framework.enterprise.infra.logging.TraceLoggerInterceptor</class>
+    <class>com.kuzumeji.uuo.framework.enterprise.infra.logging.TraceLoggerInterceptor</class>
   </interceptors>
   <scan />
 </beans>
