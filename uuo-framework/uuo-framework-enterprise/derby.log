@@ -1,7 +1,7 @@
 ----------------------------------------------------------------
-Sat Nov 30 21:21:45 JST 2013:
- Derby バージョン The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): インスタンス a816c00e-0142-a8f5-1c23-000005932940 を
-クラスローダー sun.misc.Launcher$AppClassLoader@3b76d662 によってデータベースディレクトリ /home.nilcy/git/uuo/uuo-framework/uuo-framework-enterprise/target/databases/derby  上でブート中 
+Sun Dec 01 09:15:34 JST 2013:
+ Derby バージョン The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): インスタンス a816c00e-0142-ab82-a1f6-0000057952a0 を
+クラスローダー sun.misc.Launcher$AppClassLoader@44c8422 によってデータベースディレクトリ /home.nilcy/git/uuo/uuo-framework/uuo-framework-enterprise/target/databases/derby  上でブート中 
 
 
 java.vendor=Oracle Corporation

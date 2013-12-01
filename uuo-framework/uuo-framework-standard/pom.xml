@@ -17,6 +17,12 @@
       <artifactId>commons-lang3</artifactId>
       <scope>compile</scope>
     </dependency>
+<!--     <dependency> -->
+<!--       <groupId>org.slf4j</groupId> -->
+<!--       <artifactId>jul-to-slf4j</artifactId> -->
+<!--       <version>1.7.5</version> -->
+<!--       <scope>compile</scope> -->
+<!--     </dependency> -->
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
