@@ -13,7 +13,7 @@
   <dependencies>
     <!-- REQUIRED for CODING -->
     <dependency>
-      <groupId>com.github.nilcy</groupId>
+      <groupId>com.kuzumeji</groupId>
       <artifactId>uuo-framework-standard</artifactId>
       <exclusions>
         <exclusion>
@@ -25,7 +25,6 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.7.5</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -34,6 +33,11 @@
       <scope>provided</scope>
     </dependency>
     <!-- REQUIRED for TESTING -->
+    <dependency>
+      <groupId>com.kuzumeji</groupId>
+      <artifactId>uuo-framework-testing</artifactId>
+      <scope>test</scope>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

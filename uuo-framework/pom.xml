@@ -14,9 +14,29 @@
     <dependencies>
       <!-- REQUIRED for CODING -->
       <dependency>
+        <groupId>com.kuzumeji</groupId>
+        <artifactId>uuo-framework-coding</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>com.kuzumeji</groupId>
+        <artifactId>uuo-framework-standard</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>com.kuzumeji</groupId>
+        <artifactId>uuo-framework-enterprise</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-lang3</artifactId>
         <version>${commons-lang3.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>${slf4j-api.version}</version>
       </dependency>
       <dependency>
         <groupId>ch.qos.logback</groupId>
@@ -29,6 +49,11 @@
         <version>${javaee-api.version}</version>
       </dependency>
       <!-- REQUIRED for TESTING -->
+      <dependency>
+        <groupId>com.kuzumeji</groupId>
+        <artifactId>uuo-framework-testing</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
@@ -56,12 +81,6 @@
         <artifactId>glassfish-embedded-all</artifactId>
         <version>4.0</version>
       </dependency>
-      <!-- REQUIRED for MODULE -->
-      <dependency>
-        <groupId>com.github.nilcy</groupId>
-        <artifactId>uuo-framework-standard</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-      </dependency>
     </dependencies>
   </dependencyManagement>
   <modules>
@@ -74,6 +93,7 @@
     <commons-lang3.version>3.1</commons-lang3.version>
     <commons-codec.version>1.8</commons-codec.version>
     <commons-beanutils.version>1.8.3</commons-beanutils.version>
+    <slf4j-api.version>1.7.5</slf4j-api.version>
     <logback-classic.version>1.0.13</logback-classic.version>
   </properties>
   <!-- プロジェクト情報 -->

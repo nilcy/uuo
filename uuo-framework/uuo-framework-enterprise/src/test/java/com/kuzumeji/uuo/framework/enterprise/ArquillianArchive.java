@@ -4,8 +4,7 @@
 // http://www.gnu.org/licenses/gpl-3.0-standalone.html
 // ----------------------------------------------------------------------------
 package com.kuzumeji.uuo.framework.enterprise;
-import org.jboss.shrinkwrap.api.ShrinkWrap;
-import org.jboss.shrinkwrap.api.asset.EmptyAsset;
+import static com.kuzumeji.uuo.framework.testing.ArquillianArchiveUtils.*;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
 /**
  * テスト用アーカイブ
@@ -17,18 +16,13 @@ class ArquillianArchive {
    * @return CDIアーカイブ
    */
   static JavaArchive CDI() {
-    return ShrinkWrap.create(JavaArchive.class)
-      .addPackages(true, "com.kuzumeji.uuo.framework.enterprise")
-      .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
+    return createJavaCdiArchive().addPackages(true, "com.kuzumeji.uuo.framework.enterprise");
   }
   /**
    * CDI/JPAアーカイブの作成
    * @return CDI/JPAアーカイブ
    */
   static JavaArchive CDI_JPA() {
-    return ShrinkWrap.create(JavaArchive.class)
-      .addPackages(true, "com.kuzumeji.uuo.framework.enterprise")
-      .addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml")
-      .addAsResource("META-INF/persistence.xml");
+    return createJavaCdiJpaArchive().addPackages(true, "com.kuzumeji.uuo.framework.enterprise");
   }
 }

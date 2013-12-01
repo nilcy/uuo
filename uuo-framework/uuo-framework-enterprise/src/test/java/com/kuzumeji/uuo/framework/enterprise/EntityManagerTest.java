@@ -4,6 +4,7 @@
 // http://www.gnu.org/licenses/gpl-3.0-standalone.html
 // ----------------------------------------------------------------------------
 package com.kuzumeji.uuo.framework.enterprise;
+import static com.kuzumeji.uuo.framework.enterprise.ArquillianArchive.*;
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;
 import java.util.Collection;
@@ -30,7 +31,7 @@ public class EntityManagerTest {
   @PersistenceContext(unitName = "primary") private EntityManager testee;
   @Deployment
   public static JavaArchive createDeployment() {
-    return ArquillianArchive.CDI_JPA();
+    return CDI_JPA();
   }
   @Test
   @Transactional(TransactionMode.ROLLBACK)

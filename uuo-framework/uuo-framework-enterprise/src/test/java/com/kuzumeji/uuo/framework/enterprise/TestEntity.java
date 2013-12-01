@@ -8,7 +8,7 @@ import static javax.persistence.GenerationType.*;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import com.github.nilcy.uuo.framework.standard.shared.AbstractDataObject;
+import com.kuzumeji.uuo.framework.standard.shared.AbstractDataObject;
 /**
  * テスト用エンティティ
  * @author nilcy

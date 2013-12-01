@@ -4,6 +4,7 @@
 // http://www.gnu.org/licenses/gpl-3.0-standalone.html
 // ----------------------------------------------------------------------------
 package com.kuzumeji.uuo.framework.enterprise;
+import static com.kuzumeji.uuo.framework.enterprise.ArquillianArchive.*;
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;
 import javax.inject.Inject;
@@ -12,7 +13,6 @@ import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import com.kuzumeji.uuo.framework.enterprise.Example;
 /**
  * @see com.kuzumeji.uuo.framework.enterprise.Example
  * @author nilcy
@@ -23,7 +23,7 @@ public class ExampleTest {
   @Inject Example testee;
   @Deployment
   public static JavaArchive createDeployment() {
-    return ArquillianArchive.CDI();
+    return CDI();
   }
   @Test
   public void test() {
