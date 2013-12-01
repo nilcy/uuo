@@ -9,6 +9,6 @@
   </parent>
   <artifactId>uuo-application</artifactId>
   <packaging>pom</packaging>
-  <name>UUO Application / Root Module</name>
+  <name>UUO Application</name>
   <description>UUO Application</description>
 </project>

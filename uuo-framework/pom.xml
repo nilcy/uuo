@@ -77,6 +77,6 @@
     <logback-classic.version>1.0.13</logback-classic.version>
   </properties>
   <!-- プロジェクト情報 -->
-  <name>UUO Framework / Root Module</name>
+  <name>UUO Framework</name>
   <description>UUO Framework</description>
 </project>

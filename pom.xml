@@ -368,7 +368,7 @@
     <outputDirectory>target/site</outputDirectory>
   </reporting>
   <!-- / プロジェクト情報 -->
-  <name>UUO / Root Module</name>
+  <name>UUO</name>
   <description>UUO (you-you-oh) [short for &quot;Un-Used Operation&quot;]</description>
   <url>http://nilcy.github.io/uuo/maven/site/</url>
   <inceptionYear>2013</inceptionYear>
