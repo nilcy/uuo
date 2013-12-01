@@ -218,8 +218,13 @@
       <property name="severity" value="ignore"/>
       <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
     </module>
-    <module name="TodoComment"/>
-    <module name="TrailingComment"/>
+    <module name="TodoComment">
+      <property name="format" value="TODO "/>
+    </module>
+    <module name="TrailingComment">
+      <property name="severity" value="ignore"/>
+      <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
+    </module>
     <module name="UncommentedMain"/>
     <module name="UpperEll"/>
     <module name="Regexp">

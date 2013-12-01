@@ -4,11 +4,11 @@
 // http://www.gnu.org/licenses/gpl-3.0-standalone.html
 // ----------------------------------------------------------------------------
 /**
- * エンタープライズ基盤 » インフラ層 » ロギング
+ * エンタープライズ基盤 » インフラ層
  * <dl>
  * <dt>使用条件
- * <dd>エンタープライズ処理のロギング基盤であること。
+ * <dd>エンタープライズ処理の基盤であること。
  * </dl>
  * @author nilcy
  */
-package com.github.nilcy.uuo.framework.enterprise.infra.logging;
+package com.github.nilcy.uuo.framework.enterprise.infra;

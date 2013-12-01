@@ -35,8 +35,7 @@ public class TraceLoggerInterceptor {
       final Object result = context.proceed();
       log.info("Exiting #{} with {}.", methodName, result);
       return result;
-    } catch (final Exception e) {
-      // OK to catch Exception here
+    } catch (final Exception e) {// OK to catch Exception here
       log.warn(e.getLocalizedMessage());
       throw e;
     }
